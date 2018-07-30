@@ -13,16 +13,19 @@ Available Functions
 
 `arc(centerX, centerY, radiusX, radiusY, orientation, startDegree, stopDegree)`
 
-Usage
------
+ * `centerX` - x-coordinate of the ellipese center point
 
-`centerX` - x-coordinate of the ellipese center point
-`centerY` - y-coordinate of the ellipse center point
-`radiusX` - x-radius of the ellipse (distance from center to the horizontal edge of the desired ellipse)
-`radiusX` - y-radius of the ellipse (distance from center to the vertial edge of the desired ellipse)
-`orientation` - degrees to rotates the ellipse described by the above parameters
-`startDegree` - degree to begin drawing the path on the above described and rotated ellipse  
-`startDegree` - degree to stop drawing the path on the above described and rotated ellipse  
+ * `centerY` - y-coordinate of the ellipse center point
+
+ * `radiusX` - x-radius of the ellipse (distance from center to the horizontal edge of the desired ellipse)
+
+ * `radiusX` - y-radius of the ellipse (distance from center to the vertial edge of the desired ellipse)
+
+ * `orientation` - degrees to rotates the ellipse described by the above parameters
+
+ * `startDegree` - degree to begin drawing the path on the above described and rotated ellipse  
+
+ * `startDegree` - degree to stop drawing the path on the above described and rotated ellipse  
 
 
 Example
