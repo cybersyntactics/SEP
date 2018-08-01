@@ -13,7 +13,7 @@ Available Functions
 
 `arc(centerX, centerY, radiusX, radiusY, orientation, startDegree, stopDegree)`
 
- * `centerX` - x-coordinate of the ellipese center point
+ * `centerX` - x-coordinate of the ellipse center point
 
  * `centerY` - y-coordinate of the ellipse center point
 
@@ -25,7 +25,7 @@ Available Functions
 
  * `startDegree` - degree to begin drawing the path on the above described and rotated ellipse  
 
- * `startDegree` - degree to stop drawing the path on the above described and rotated ellipse  
+ * `stopDegree` - degree to stop drawing the path on the above described and rotated ellipse  
 
 
 Example
@@ -33,8 +33,8 @@ Example
 
 In the console:
 
-`Snap(200,200)
-  .attr({'style':'stroke:black;stroke-width:4px;fill:none'})
-  .arc(100, 100, 120, 80, -40, 45, 135);`
+    Snap(200,200)
+      .attr({'style':'stroke:black;stroke-width:4px;fill:none'})
+      .arc(100, 100, 120, 80, -40, 45, 135);`
 
 Or select an SVG element using Snap.svg and call the `arc()` function as above
